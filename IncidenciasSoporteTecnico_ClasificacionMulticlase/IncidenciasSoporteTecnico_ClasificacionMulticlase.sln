@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncidenciasSoporteTecnico_ClasificacionMulticlase", "IncidenciasSoporteTecnico_ClasificacionMulticlase\IncidenciasSoporteTecnico_ClasificacionMulticlase.csproj", "{CDDE824A-CAC0-47AF-9D10-4C6A9C7D6B90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDDE824A-CAC0-47AF-9D10-4C6A9C7D6B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDE824A-CAC0-47AF-9D10-4C6A9C7D6B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDE824A-CAC0-47AF-9D10-4C6A9C7D6B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDE824A-CAC0-47AF-9D10-4C6A9C7D6B90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9965A8B-1DB5-456C-A78B-5AE52E4EECD2}
+	EndGlobalSection
+EndGlobal

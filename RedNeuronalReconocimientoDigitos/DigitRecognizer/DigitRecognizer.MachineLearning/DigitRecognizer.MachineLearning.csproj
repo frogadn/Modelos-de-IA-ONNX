@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF82C3DF-0EFE-45DB-8E3D-1FFDD548AE73}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DigitRecognizer.MachineLearning</RootNamespace>
+    <AssemblyName>DigitRecognizer.MachineLearning</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Infrastructure\Dropout\BinomialDistribution.cs" />
+    <Compile Include="Infrastructure\Dropout\Dropout.cs" />
+    <Compile Include="Infrastructure\Factories\AbstractTypeFactory.cs" />
+    <Compile Include="Infrastructure\Factories\InitializerFactory.cs" />
+    <Compile Include="Infrastructure\Initialization\HeInitializer.cs" />
+    <Compile Include="Infrastructure\Initialization\IInitializer.cs" />
+    <Compile Include="Infrastructure\Initialization\InitializerType.cs" />
+    <Compile Include="Infrastructure\Initialization\RandomInitializer.cs" />
+    <Compile Include="Infrastructure\Initialization\XavierInitializer.cs" />
+    <Compile Include="Infrastructure\Initialization\ZeroInitializer.cs" />
+    <Compile Include="Infrastructure\Models\IPredictionModel.cs" />
+    <Compile Include="Infrastructure\Models\ClusterPredictionModel.cs" />
+    <Compile Include="Optimization\Optimizers\BaseOptimizer.cs" />
+    <Compile Include="Optimization\LearningRateDecay\ExponentailDecay.cs" />
+    <Compile Include="Optimization\LearningRateDecay\ILearningRateDecay.cs" />
+    <Compile Include="Optimization\LearningRateDecay\StepDecay.cs" />
+    <Compile Include="Optimization\LearningRateDecay\TimeBasedDecay.cs" />
+    <Compile Include="Optimization\Optimizers\MomentumOptimizer.cs" />
+    <Compile Include="Pipeline\LearningPipeline.cs" />
+    <Compile Include="Infrastructure\Factories\FunctionFactory.cs" />
+    <Compile Include="Infrastructure\Models\PredictionModel.cs" />
+    <Compile Include="Infrastructure\Data\CalculationCache.cs" />
+    <Compile Include="Infrastructure\NeuralNetwork\NeuralNetwork.cs" />
+    <Compile Include="Infrastructure\NeuralNetwork\NnLayer.cs" />
+    <Compile Include="Infrastructure\Functions\IFunction.cs" />
+    <Compile Include="Infrastructure\Functions\IActivationFunction.cs" />
+    <Compile Include="Infrastructure\Functions\IDifferentiableFunction.cs" />
+    <Compile Include="Infrastructure\Functions\ICostFunction.cs" />
+    <Compile Include="Pipeline\PipelineExtensions.cs" />
+    <Compile Include="Pipeline\PipelineSettings.cs" />
+    <Compile Include="Providers\BatchDataProvider.cs" />
+    <Compile Include="Providers\DataProviderBase.cs" />
+    <Compile Include="Providers\IDataProvider.cs" />
+    <Compile Include="Serialization\INnSerializable.cs" />
+    <Compile Include="Infrastructure\NeuralNetwork\INeuralNetwork.cs" />
+    <Compile Include="Optimization\Optimizers\IOptimizer.cs" />
+    <Compile Include="Infrastructure\NeuralNetwork\IValueAdjustable.cs" />
+    <Compile Include="Infrastructure\NeuralNetwork\BiasVector.cs" />
+    <Compile Include="Infrastructure\NeuralNetwork\WeightMatrix.cs" />
+    <Compile Include="Infrastructure\Functions\CrossEntropy.cs" />
+    <Compile Include="Infrastructure\Functions\ExponentialRelu.cs" />
+    <Compile Include="Infrastructure\Functions\LeakyRelu.cs" />
+    <Compile Include="Infrastructure\Functions\MeanSquareError.cs" />
+    <Compile Include="Infrastructure\Functions\Relu.cs" />
+    <Compile Include="Infrastructure\Functions\Sigmoid.cs" />
+    <Compile Include="Infrastructure\Functions\Softmax.cs" />
+    <Compile Include="Infrastructure\Functions\Softplus.cs" />
+    <Compile Include="Infrastructure\Functions\Tanh.cs" />
+    <Compile Include="Pipeline\ILearningPipelineDataLoader.cs" />
+    <Compile Include="Pipeline\ILearningPipelineItem.cs" />
+    <Compile Include="Pipeline\ILearningPipelineNeuralNetworkModel.cs" />
+    <Compile Include="Pipeline\ILearningPipelineOptimizer.cs" />
+    <Compile Include="Optimization\Optimizers\GradientDescentOptimizer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serialization\NnDeserializer.cs" />
+    <Compile Include="Serialization\NnSerializer.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DigitRecognizer.Core\DigitRecognizer.Core.csproj">
+      <Project>{BA726236-C7EC-41CA-ABB6-E4FE7E784939}</Project>
+      <Name>DigitRecognizer.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

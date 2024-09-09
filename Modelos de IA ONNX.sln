@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modelos de IA ONNX", "Modelos de IA ONNX\Modelos de IA ONNX.csproj", "{60495F2F-C665-4993-8FEA-4DCC67AA67B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{0F2045D1-6654-4FBB-BD78-372C198CF7A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalisisDeSentimientos_ClasificacionBinaria", "AnalisisDeSentimientos_ClasificacionBinaria\AnalisisDeSentimientos_ClasificacionBinaria\AnalisisDeSentimientos_ClasificacionBinaria.csproj", "{CBBD4A34-3471-4D0E-B50D-5077C66DDBCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeteccionAnomaliasEnVentas", "DeteccionAnomaliasEnVentas\DeteccionAnomaliasEnVentas\DeteccionAnomaliasEnVentas.csproj", "{DC8D8D45-8B60-4D43-9135-B420397014A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncidenciasSoporteTecnico_ClasificacionMulticlase", "IncidenciasSoporteTecnico_ClasificacionMulticlase\IncidenciasSoporteTecnico_ClasificacionMulticlase\IncidenciasSoporteTecnico_ClasificacionMulticlase.csproj", "{EEF2F80D-86AD-44F0-9353-07B92A86A448}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrediccionPrecios_Regresion", "PrediccionPrecios_Regresion\PrediccionPrecios_Regresion\PrediccionPrecios_Regresion.csproj", "{D5104913-7E7F-47AE-BDE1-32AC53AE7A9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecomendadorDePeliculas_FactorizacionMatricial", "RecomendadorDePeliculas_FactorizacionMatricial\RecomendadorDePeliculas_FactorizacionMatricial\RecomendadorDePeliculas_FactorizacionMatricial.csproj", "{B5361694-922C-434E-A47D-18EEDF1DAE2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransferLearningTF", "TransferLearningTF\TransferLearningTF\TransferLearningTF.csproj", "{B2182104-7A28-4502-A772-EF764F113B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitRecognizer.Core", "RedNeuronalReconocimientoDigitos\DigitRecognizer\DigitRecognizer.Core\DigitRecognizer.Core.csproj", "{BA726236-C7EC-41CA-ABB6-E4FE7E784939}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneCallsAnomalyDetection", "PruebaDeteccionAnomalias\PruebaDeteccionAnomalias\PhoneCallsAnomalyDetection.csproj", "{9E522EB6-ABFF-49E0-8861-EE3FC82BD5CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaModelosIA", "PruebaModelosIA\PruebaModelosIA\PruebaModelosIA.csproj", "{4A8F6A7C-B1BD-4005-8D54-E6783AFE4A95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60495F2F-C665-4993-8FEA-4DCC67AA67B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60495F2F-C665-4993-8FEA-4DCC67AA67B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60495F2F-C665-4993-8FEA-4DCC67AA67B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60495F2F-C665-4993-8FEA-4DCC67AA67B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBD4A34-3471-4D0E-B50D-5077C66DDBCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBD4A34-3471-4D0E-B50D-5077C66DDBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBD4A34-3471-4D0E-B50D-5077C66DDBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBD4A34-3471-4D0E-B50D-5077C66DDBCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8D8D45-8B60-4D43-9135-B420397014A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8D8D45-8B60-4D43-9135-B420397014A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8D8D45-8B60-4D43-9135-B420397014A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8D8D45-8B60-4D43-9135-B420397014A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF2F80D-86AD-44F0-9353-07B92A86A448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF2F80D-86AD-44F0-9353-07B92A86A448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF2F80D-86AD-44F0-9353-07B92A86A448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF2F80D-86AD-44F0-9353-07B92A86A448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5104913-7E7F-47AE-BDE1-32AC53AE7A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5104913-7E7F-47AE-BDE1-32AC53AE7A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5104913-7E7F-47AE-BDE1-32AC53AE7A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5104913-7E7F-47AE-BDE1-32AC53AE7A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5361694-922C-434E-A47D-18EEDF1DAE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5361694-922C-434E-A47D-18EEDF1DAE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5361694-922C-434E-A47D-18EEDF1DAE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5361694-922C-434E-A47D-18EEDF1DAE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2182104-7A28-4502-A772-EF764F113B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2182104-7A28-4502-A772-EF764F113B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2182104-7A28-4502-A772-EF764F113B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2182104-7A28-4502-A772-EF764F113B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA726236-C7EC-41CA-ABB6-E4FE7E784939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA726236-C7EC-41CA-ABB6-E4FE7E784939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA726236-C7EC-41CA-ABB6-E4FE7E784939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA726236-C7EC-41CA-ABB6-E4FE7E784939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E522EB6-ABFF-49E0-8861-EE3FC82BD5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E522EB6-ABFF-49E0-8861-EE3FC82BD5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E522EB6-ABFF-49E0-8861-EE3FC82BD5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E522EB6-ABFF-49E0-8861-EE3FC82BD5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8F6A7C-B1BD-4005-8D54-E6783AFE4A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8F6A7C-B1BD-4005-8D54-E6783AFE4A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8F6A7C-B1BD-4005-8D54-E6783AFE4A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8F6A7C-B1BD-4005-8D54-E6783AFE4A95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60495F2F-C665-4993-8FEA-4DCC67AA67B3} = {0F2045D1-6654-4FBB-BD78-372C198CF7A8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3023B24-DEA5-4C9E-BE9D-544D7D29F8BF}
+	EndGlobalSection
+EndGlobal
