@@ -19,8 +19,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecomendadorDePeliculas_Fac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransferLearningTF", "TransferLearningTF\TransferLearningTF\TransferLearningTF.csproj", "{B2182104-7A28-4502-A772-EF764F113B0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitRecognizer.Core", "RedNeuronalReconocimientoDigitos\DigitRecognizer\DigitRecognizer.Core\DigitRecognizer.Core.csproj", "{BA726236-C7EC-41CA-ABB6-E4FE7E784939}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneCallsAnomalyDetection", "PruebaDeteccionAnomalias\PruebaDeteccionAnomalias\PhoneCallsAnomalyDetection.csproj", "{9E522EB6-ABFF-49E0-8861-EE3FC82BD5CE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaModelosIA", "PruebaModelosIA\PruebaModelosIA\PruebaModelosIA.csproj", "{4A8F6A7C-B1BD-4005-8D54-E6783AFE4A95}"
@@ -59,10 +57,6 @@ Global
 		{B2182104-7A28-4502-A772-EF764F113B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2182104-7A28-4502-A772-EF764F113B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2182104-7A28-4502-A772-EF764F113B0C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA726236-C7EC-41CA-ABB6-E4FE7E784939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA726236-C7EC-41CA-ABB6-E4FE7E784939}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA726236-C7EC-41CA-ABB6-E4FE7E784939}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA726236-C7EC-41CA-ABB6-E4FE7E784939}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9E522EB6-ABFF-49E0-8861-EE3FC82BD5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E522EB6-ABFF-49E0-8861-EE3FC82BD5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E522EB6-ABFF-49E0-8861-EE3FC82BD5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,4 +1,19 @@
-﻿using Microsoft.ML;
+﻿#region Documentación
+/*
+ * Este programa su finalidad es mostrar cómo detectar anomalías en series temporales de ventas de productos.
+ * Se utilizan algoritmos de detección de picos y puntos de cambio para identificar cambios temporales y persistentes en los patrones de ventas.
+ * 
+ * 1. El programa carga los datos de un archivo CSV y los divide en conjuntos de entrenamiento y prueba.
+ * 2. Detecta cambios temporales en el patrón de ventas.
+ * 3. Detecta cambios persistentes en el patrón de ventas.
+ * 4. Muestra los resultados de la detección de anomalías.
+ *
+ * Referencias y documentación: https://learn.microsoft.com/es-es/dotnet/machine-learning/tutorials/sales-anomaly-detection
+ *
+ */
+#endregion
+
+using Microsoft.ML;
 
 namespace DeteccionAnomaliasEnVentas
 {
@@ -8,7 +23,7 @@ namespace DeteccionAnomaliasEnVentas
         /// <summary>
         /// Ruta del archivo de datos CSV.
         /// </summary>
-        static readonly string _dataPath = Path.Combine(Environment.CurrentDirectory, "C:\\Frog\\Modelos de IA ONNX\\DeteccionAnomaliasEnVentas\\DeteccionAnomaliasEnVentas\\Datos", "product-sales.csv");
+        static readonly string _dataPath = Path.Combine( "C:\\Frog\\Modelos de IA ONNX\\Modelos de IA ONNX\\DeteccionAnomaliasEnVentas\\DeteccionAnomaliasEnVentas\\Datos", "product-sales.csv");
 
         /// <summary>
         /// Número de registros en el archivo de datos.

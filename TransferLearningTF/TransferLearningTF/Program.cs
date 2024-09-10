@@ -1,4 +1,17 @@
-﻿
+﻿#region Documentación
+/*
+ * Este programa su finalidad es detectar objetos en imágenes mediante transferencia de aprendizaje.
+ * Se utiliza un modelo de detección de objetos para detectar objetos en imágenes.
+ * 
+ * 1. El programa carga los datos de un archivo de imágenes y los procesa con un modelo de detección de objetos.
+ * 2. Realiza la detección de objetos en las imágenes.
+ * 3. Dibuja cuadros delimitadores alrededor de los objetos detectados.
+ * 4. Imprime los objetos detectados en cada imagen.
+ *
+ * Referencias y documentación: https://learn.microsoft.com/en-us/dotnet/machine-learning/tutorials/image-classification
+ *
+ */
+#endregion
 
 using Microsoft.ML.Data;
 using Microsoft.ML;

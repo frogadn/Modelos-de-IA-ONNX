@@ -1,13 +1,21 @@
-﻿using System;
-using Microsoft.ML.OnnxRuntime;
-using Microsoft.ML.OnnxRuntime.Tensors;
-//using Microsoft.ML.OnnxRuntime.DirectML;
+﻿
+#region Documentación
+/*
+ * Este programa su finalidad es mostrar cómo realizar detección de objetos en imágenes.
+ * Se utiliza un modelo de detección de objetos para detectar objetos en imágenes.
+ * 
+ * 1. El programa carga los datos de un archivo de imágenes y los procesa con un modelo de detección de objetos.
+ * 2. Realiza la detección de objetos en las imágenes.
+ * 3. Dibuja cuadros delimitadores alrededor de los objetos detectados.
+ * 4. Imprime los objetos detectados en cada imagen.
+ *
+ * Referencias y documentación: https://learn.microsoft.com/en-us/dotnet/machine-learning/tutorials/object-detection-onnx
+ *
+ */
+#endregion
 
 using System.Drawing;
 using System.Drawing.Drawing2D;
-//using ObjectDetection.YoloParser;
-//using ObjectDetection.DataStructures;
-//using ObjectDetection;
 using Microsoft.ML;
 using PruebaModelosIA;
 using YoloParser;

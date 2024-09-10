@@ -1,4 +1,20 @@
-﻿using System.Data;
+﻿
+#region Documentación
+/*
+ * Este programa su finalidad es la recomendación de películas mediante factorización matricial.
+ * Se utiliza un modelo de factorización matricial para recomendar películas a los usuarios.
+ * 
+ * 1. El programa carga los datos de un archivo de texto y los divide en conjuntos de entrenamiento y prueba.
+ * 2. Construye y entrena un modelo de factorización matricial.
+ * 3. Evalúa el modelo con el conjunto de datos de prueba.
+ * 4. Realiza una predicción individual con el modelo entrenado.
+ *
+ * Referencias y documentación: https://learn.microsoft.com/en-us/dotnet/machine-learning/tutorials/movie-recommendation
+ *
+ */
+#endregion
+
+using System.Data;
 using System.Runtime.CompilerServices;
 using Microsoft.ML;
 using Microsoft.ML.Trainers;
@@ -7,7 +23,6 @@ using Microsoft.ML.Trainers;
 
 namespace RecomendadorDePeliculas_FactorizacionMatricial
 {
-   
 
     namespace RecomendadorDePeliculas_FactorizacionMatricial
     {

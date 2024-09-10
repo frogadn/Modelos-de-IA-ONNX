@@ -1,4 +1,19 @@
-﻿using Microsoft.ML;
+﻿#region Documentación
+/*
+ * Este programa su finalidad es mostrar cómo realizar clasificación multiclase en un conjunto de datos de incidencias de soporte técnico.
+ * Se utiliza un modelo de clasificación multiclase para clasificar las incidencias en diferentes áreas de soporte técnico.
+ * 
+ * 1. El programa carga los datos de un archivo de texto y los divide en conjuntos de entrenamiento y prueba.
+ * 2. Construye y entrena un modelo de clasificación multiclase.
+ * 3. Evalúa el modelo con el conjunto de datos de prueba.
+ * 4. Realiza predicciones con el modelo.
+ *
+ * Referencias y documentación: https://docs.microsoft.com/en-us/dotnet/machine-learning/tutorials/github-issue-classification
+ *
+ */
+#endregion
+
+using Microsoft.ML;
 
 namespace IncidenciasSoporteTecnico_ClasificacionMulticlase
 {

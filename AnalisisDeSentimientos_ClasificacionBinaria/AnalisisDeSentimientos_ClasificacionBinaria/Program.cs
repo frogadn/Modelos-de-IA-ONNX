@@ -1,6 +1,22 @@
-﻿using Microsoft.ML;
+﻿#region Documentación
+/*
+ * Este programa su finalidad es mostrar cómo realizar análisis de sentimientos en texto mediante la clasificación binaria.
+ * Se utiliza un modelo de regresión logística para clasificar el sentimiento de las opiniones de los clientes en positivo o negativo.
+ * 
+ * 1. El programa carga los datos de un archivo de texto y los divide en conjuntos de entrenamiento y prueba.
+ * 2. Construye y entrena un modelo de análisis de sentimientos.
+ * 3. Evalúa el modelo con el conjunto de datos de prueba.
+ * 4. Realiza predicciones con el modelo.
+ *
+ * Referencias y documentación: https://docs.microsoft.com/en-us/dotnet/machine-learning/tutorials/sentiment-analysis
+ *
+ */
+#endregion
+
+using Microsoft.ML;
 using Microsoft.ML.Data;
-//using SentimentAnalysis;
+
+
 using static Microsoft.ML.DataOperationsCatalog;
 
 namespace AnalisisDeSentimientos_ClasificacionBinaria

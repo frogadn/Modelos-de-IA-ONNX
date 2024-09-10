@@ -1,4 +1,18 @@
-﻿using Microsoft.ML;
+﻿#region Documentación
+/*
+ * Este programa su finalidad es mostrar cómo realizar detección de anomalías en series temporales.
+ * Se utiliza un modelo de detección de anomalías para detectar anomalías en una serie temporal de llamadas telefónicas.
+ * 
+ * 1. El programa carga los datos de un archivo de texto y detecta el período de la serie.
+ * 2. Detecta anomalías en la serie con la información del período.
+ * 3. Imprime los resultados de la detección de anomalías.
+ *
+ * Referencias y documentación: https://learn.microsoft.com/en-us/dotnet/machine-learning/tutorials/phone-calls-anomaly-detection
+ *
+ */
+#endregion
+
+using Microsoft.ML;
 using Microsoft.ML.TimeSeries;
 using PhoneCallsAnomalyDetection;
 using PhoneCallsAnomalyDetection.DataSourses;

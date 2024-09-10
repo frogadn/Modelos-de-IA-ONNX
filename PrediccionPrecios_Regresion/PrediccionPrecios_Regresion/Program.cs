@@ -1,4 +1,19 @@
-﻿using Microsoft.ML;
+﻿#region Documentación
+/*
+ * Este programa su finalidad es mostrar cómo realizar predicciones de precios de taxis mediante regresión.
+ * Se utiliza un modelo de regresión para predecir la tarifa de un viaje en taxi.
+ * 
+ * 1. El programa carga los datos de un archivo de texto y entrena un modelo de regresión.
+ * 2. Evalúa el modelo con un conjunto de datos de prueba.
+ * 3. Realiza una predicción única con el modelo entrenado.
+ * 4. Imprime los resultados de la predicción.
+ *
+ * Referencias y documentación: https://learn.microsoft.com/en-us/dotnet/machine-learning/tutorials/predict-prices
+ *
+ */
+#endregion
+
+using Microsoft.ML;
 
 namespace PrediccionPrecios_Regresion
 {
